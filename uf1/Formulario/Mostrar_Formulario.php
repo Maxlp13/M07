@@ -11,7 +11,8 @@
 
 <div style="margin: 30px 10%;">
 <h3>Mi formulario</h3>
-<form action="processa_dades.php" method="post" id="myform" name="myform">
+
+<form action="Procesa_datos.php" method="post" id="myform" name="myform">
 
     <label>Text</label> <input type="text" value="" size="30" maxlength="100" name="mytext" id="" /><br /><br />
 

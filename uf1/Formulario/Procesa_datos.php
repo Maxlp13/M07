@@ -1,6 +1,6 @@
 <?php
 echo "Has ecrito esto en el text: $_REQUEST[mytext].<br>";
-echo "Has escogido la:  $_REQUEST[myradio].<br>";
+echo "has escogido la:  $_REQUEST[myradio].<br>";
 
 
 if(isset ($_REQUEST["mycheckbox"])){

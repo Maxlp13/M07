@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     echo "Has escogido el grupo $_REQUEST[myselect].<br>";
-    echo "Has escrito en el recuadro: $_REQUEST[mytextarea].<br>";  
+    echo "has escrito en el recuadro: $_REQUEST[mytextarea].<br>";  
     }   else {
 
     //Pintar el formulario
@@ -33,7 +33,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <div style="margin: 30px 10%;">
 <h3>Mi formulario</h3>
-<form action="processa_dades.php" method="post" id="myform" name="myform">
+<form action="Procesa_datos.php" method="post" id="myform" name="myform">
 
     <label>Text</label> <input type="text" value="" size="30" maxlength="100" name="mytext" id="" /><br /><br />
 
